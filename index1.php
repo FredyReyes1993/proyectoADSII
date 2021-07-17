@@ -3,7 +3,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <script src="https://kit.fontawesome.com/aec49ed3b2.js" crossorigin="anonymous"></script>
     <title>Proyecto#1</title>
      <link rel="stylesheet" href="estilo.css">	
 
@@ -53,7 +53,6 @@ function get_public_ip(){
 
 <p><?php echo 'IP address es ' . get_client_ip() . '<br>';?></p>
 <p><?php echo 'IP address es ' . get_public_ip().PHP_EOL;'<br>';?></p>
-
 
 <div class="ub1">Nombre</div>
 <i class="bi bi-person-square"></i>
