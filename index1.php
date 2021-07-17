@@ -69,14 +69,14 @@ account_circle
 <span class="bi bi-person-fill"></span>
 
 
-<div class="ub1">&#128273; Nombre</div>
+<div class="ub1">Nombre</div>
 <i class="bi bi-person-square"></i>
 <input type="text" name="txtusuario" placeholder="Ingrese su nombre...">
 
-<div class="ub1">&#128273; Apellido</div>
+<div class="ub1"> Apellido</div>
 <input type="text" name="txtusuario" placeholder="Ingrese su apellido...">
 
-<div class="ub1">&#128273; Dirección</div>
+<div class="ub1">Dirección</div>
 <input type="text" name="txtusuario" placeholder="Ingrese su apellido...">
 
 <div align="center">
