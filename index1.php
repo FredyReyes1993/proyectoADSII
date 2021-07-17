@@ -55,20 +55,6 @@ function get_public_ip(){
 <p><?php echo 'IP address es ' . get_public_ip().PHP_EOL;'<br>';?></p>
 
 
-
-<span class="material-icons-outlined">
-account_circle
-</span>
-<div class="input-group mb-3">
-  <div class="input-group-prepend">
-    <span class="bi bi-person-fill"></span>
-  </div>
-  <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
-</div>
-
-<span class="bi bi-person-fill"></span>
-
-
 <div class="ub1">Nombre</div>
 <i class="bi bi-person-square"></i>
 <input type="text" name="txtusuario" placeholder="Ingrese su nombre...">
