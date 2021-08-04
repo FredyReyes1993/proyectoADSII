@@ -6,12 +6,12 @@ $nombre = $_POST ['txtNombre'];
 $apellido = $_POST['txtApellido'];
 $direccion = $_POST['txtDireccion'];
 
-    $sql = "INSERT INTO users ( name, email,password) 
+    $sql = "INSERT INTO proyecto ( nombre,apellido,direccion) 
 		VALUES ('$nombre','$apellido','$direccion')";
         $resultado = mysqli_query($conn, $sql);    
         
         if($resultado){
-            header('location: index1.php');
+            header('location: index.php');
         }
         else{
             echo "No se inserto";

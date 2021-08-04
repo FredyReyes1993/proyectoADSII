@@ -1,10 +1,10 @@
 <?php
 
-$conn = mysqli_connect('localhost', 'root', 'JasonSlater123', 'flaskcontacts');
+$conn = mysqli_connect('adsii.cn4tyodhyfme.us-east-1.rds.amazonaws.com', 'admin', 'admin123', 'ADSII');
 
 
 
-//ADSII
-//db1.cn4tyodhyfme.us-east-1.rds.amazonaws.com
+
+
 
 ?>
