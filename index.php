@@ -17,13 +17,12 @@
 include("ip.php");
 ?>
 <div class="ub1"> 
-<p ><?php echo 'IP address es ' . get_client_ip() . '<br>';?></p>
-<p ><?php echo 'IP address es ' . get_public_ip().PHP_EOL;'<br>';?></p>
+<p ><?php echo 'IP address client: ' . get_client_ip() . '<br>';?></p>
+<p ><?php echo 'IP address server: ' . get_public_ip().PHP_EOL;'<br>';?></p>
 
 
 <?php
 include("conexion.php");
-echo"Conexion Exitosa";
 ?>
 </div>
 <div class="ub1">Nombre</div>
