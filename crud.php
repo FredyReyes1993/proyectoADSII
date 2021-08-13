@@ -6,7 +6,7 @@ $nombre = $_POST ['txtNombre'];
 $apellido = $_POST['txtApellido'];
 $direccion = $_POST['txtDireccion'];
 
-    $sql = "INSERT INTO proyecto ( nombre,apellido,direccion) 
+    $sql = "INSERT INTO PROYECTO (NOMBRE,APELLIDO,DIRECCION) 
 		VALUES ('$nombre','$apellido','$direccion')";
         $resultado = mysqli_query($conn, $sql);    
         
